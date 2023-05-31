@@ -1,8 +1,7 @@
 import React from 'react'
 import Oxy from '../components/Oxy'
 import Link from 'next/link'
-import{FaRegUser} from 'react-icons/Fa'
-import {BsFillUnlockFill} from 'react-icons/Bs'
+
 
 export default function page() {
   return (
@@ -19,8 +18,8 @@ export default function page() {
              <input type="text" required className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] text-[16px]  border-[1px] w-48 p-1 hover:placeholder-[#7E6C64] border-black outline-none' name="" id="" placeholder='Last Name' /> 
              </div>
 
-            <FaRegUser/> <input type="email" required maxLength={30} minLength={30} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] text-[16px] hover:placeholder-[#7E6C64] w-96 p-1 mb-12 border-[1px] border-black outline-none' name="" id="" placeholder='Email Address' />
-            <BsFillUnlockFill/>  <input type="password" required maxLength={8} minLength={8} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] w-96 p-1 text-[16px] hover:placeholder-[#7E6C64] mb-16 border-[1px] border-black outline-none' name="password" id="" placeholder='Password' />
+            <input type="email" required maxLength={30} minLength={30} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] text-[16px] hover:placeholder-[#7E6C64] w-96 p-1 mb-12 border-[1px] border-black outline-none' name="" id="" placeholder='Email Address' />
+              <input type="password" required maxLength={8} minLength={8} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] w-96 p-1 text-[16px] hover:placeholder-[#7E6C64] mb-16 border-[1px] border-black outline-none' name="password" id="" placeholder='Password' />
 
             <button className='bg-[#FF6347]  hover:text-[#1b1b1b] shadow-lg border-[1px] border-black text-center rounded-[10px] p-2 w-96 '>Create Account</button>
         </form>

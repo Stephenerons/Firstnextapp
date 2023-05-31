@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-// import pic from './images/Vector.png'
+import pic from '../images/Vector.png'
 
 
 
 export default function Oxy() {
   return (
+    
     <div className='w-3/5 bg-[#21343B] h-screen ' >
        <h1 className=' text-[#F6EFEF] text-[40px] text-center pt-4 mb-4' >
          Oxy's Tv
@@ -15,7 +16,7 @@ export default function Oxy() {
        Personal information   
    </h2>
 
-   {/* <Image className='w-[197px] h-[152px] mx-auto mt-8 mb-8' src={pic} alt='A password key' /> */}
+   <Image className='w-[197px] h-[152px] mx-auto mt-8 mb-8' src={pic} alt='A password key' />
 
    <p className='text-[#d9d9d9] ml-28 mb-10 text-[20px]'>Login ID and Password</p>
 
@@ -30,6 +31,7 @@ export default function Oxy() {
 
 
     </div>
+    
   )
 }
 

@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}><Oxy/> {children}</body>
+      <body className='flex justify-evenly' ><Oxy/> {children}</body>
     </html>
   )
 }

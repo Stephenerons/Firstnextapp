@@ -3,8 +3,7 @@ import React from 'react'
 import {FcGoogle} from 'react-icons/Fc'
 import {SiFacebook} from 'react-icons/Si'
 import{SiApple} from 'react-icons/Si'
-import{FaRegUser} from 'react-icons/Fa'
-import {BsFillUnlockFill} from 'react-icons/Bs'
+
 
 
 export default function page() {
@@ -20,8 +19,8 @@ export default function page() {
 
     <form  className=' flex flex-col items-center mb-4'>     
        
-    <FaRegUser/> <input type="text" autoFocus required maxLength={30} minLength={30} className='shadow-lg hover:border-[#1f1911] rounded-[4px] text-[16px]  mb-10 p-1 w-72 border-[1px] hover:placeholder-[#737373] border-black outline-none ' placeholder='Enter Username/Email/Number' /> 
-      <BsFillUnlockFill/>  <input type="password" required maxLength={8} minLength={8} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] w-72 p-1 text-[16px] hover:placeholder-[#737373]  border-[1px] border-black outline-none' name="Password" id="" placeholder='Password' />
+     <input type="text" autoFocus required maxLength={30} minLength={30} className='shadow-lg hover:border-[#1f1911] rounded-[4px] text-[16px]  mb-10 p-1 w-72 border-[1px] hover:placeholder-[#737373] border-black outline-none ' placeholder='Enter Username/Email/Number' /> 
+     <input type="password" required maxLength={8} minLength={8} className='hover:border-[#CFC3B6] shadow-lg rounded-[4px] w-72 p-1 text-[16px] hover:placeholder-[#737373]  border-[1px] border-black outline-none' name="Password" id="" placeholder='Password' />
 
     </form>
 
